@@ -1,0 +1,99 @@
+body {
+  margin:0;
+}
+
+h1, h2, h3, h4 {
+  font-family: Arial, serif;
+  text-transform: uppercase;
+  color: #0a3a32;
+}
+
+article h1, article h2, article h3, article h4 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+hr {
+  height: 2px;
+  padding: 0;
+  color: white;
+  background-color: white;
+  border: 0;
+}
+
+/* HEADER */
+header {
+  background-color: #c5f159;
+  padding: 5px;
+  text-align: center;
+}
+
+header li {
+  display:inline;
+  margin-right: 10px;
+}
+
+li a {
+  text-transform: uppercase;
+  font-family: Impact, serif;
+  color: white;
+}
+
+/* CONTENU */
+section {
+  display: flex;
+}
+
+aside {
+  width: 30%;
+  background-color: #5cc4b3;
+  padding: 10px;
+}
+
+article {
+  background-color: #f5f5f5;
+  padding: 25px;
+  text-align: center;
+}
+
+img {
+  width: 20%;
+  border : 2px solid black;
+  border-radius: 10px;
+  position: relative;
+  left: 40%;
+}
+
+.experience {
+  width: 80%;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+  margin:auto;
+  margin-top: 20px;
+  text-align: justify;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* FOOTER */
+footer {
+  background-color: #c5f159;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.contact {
+  width: 50%;
+}
+
+.adress {
+  width: 50%;
+}
